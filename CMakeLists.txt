@@ -16,7 +16,8 @@ file(GLOB SOURCES "src/*.cpp")
 
 # Create executable
 add_executable(blockchain ${SOURCES}
-        src/test.cpp
+        include/Transaction.h
+        include/Utils.h
 )
 
 # Optional: Add compiler warnings
