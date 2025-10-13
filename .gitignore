@@ -1,0 +1,47 @@
+# Ignore build directory
+/build/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+cmake-build-debug
+
+# Unix object and executable files
+*.o
+*.lo
+*.la
+*.al
+*.out
+*.a
+*.so
+*.dylib
+*.exe
+
+# Backup and temporary files
+*~
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Logs
+*.log
+
+# Visual Studio Code settings (optional)
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Clang and GCC analyzer outputs
+*.d
+
+.idea
+# Compilation database (optional)
+compile_commands.json
+
