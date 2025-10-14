@@ -14,7 +14,6 @@ private:
     std::string hash;
     int nonce;
 
-    std::string calculateHash() const;
     std::string transactionsToString() const;
 
 public:
@@ -23,6 +22,7 @@ public:
     // mining
     void mineBlock(int difficulty);
 
+    std::string calculateHash() const;
     // getters
     int getIndex() const {return index;}
     std::string getHash() const {return hash;}
