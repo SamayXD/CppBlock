@@ -27,10 +27,10 @@ private:
     double getDoubleInput(const std::string& prompt);
     int getIntInput(const std::string& prompt);
 
-private:
+public:
     TUI(Blockchain& bc);
-
     void run();
+
 };
 
 
